@@ -538,3 +538,62 @@ background-image: url('1project.png');
     transform:translateY(-5px);
     background:white;
 }
+/* Premium Navbar */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(15,23,42,.9);
+    backdrop-filter:blur(15px);
+    z-index:9999;
+}
+
+.logo{
+    color:#fff;
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#00e5ff;
+}
+
+.navbar ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+.navbar ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:600;
+}
+
+.navbar ul li a:hover{
+    color:#00e5ff;
+}
+
+.nav-btn{
+    background:#00e5ff;
+    color:#111;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.nav-btn:hover{
+    background:white;
+}
+
+body{
+    padding-top:90px;
+}
