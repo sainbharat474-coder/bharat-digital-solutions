@@ -1855,3 +1855,69 @@ font-size:34px;
 }
 
 }
+/* ===== FULL DARK THEME ===== */
+
+body{
+    background:#050816;
+    color:#fff;
+}
+
+section{
+    background:#050816 !important;
+}
+
+.about,
+.services,
+.portfolio,
+.counter,
+.process,
+.testimonials,
+.faq,
+.contact,
+.footer{
+    background:#050816 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#fff !important;
+}
+
+p,
+li,
+span{
+    color:#cbd5e1 !important;
+}
+
+/* Premium Cards */
+
+.service-card,
+.portfolio-card,
+.process-card,
+.testimonial-card,
+.contact-card,
+.counter div{
+    background:#0d1224 !important;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    transition:.4s;
+}
+
+.service-card:hover,
+.portfolio-card:hover,
+.process-card:hover,
+.testimonial-card:hover,
+.contact-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 50px rgba(37,99,235,.25);
+}
+
+/* Buttons */
+
+.btn{
+    background:#2563eb;
+    color:#fff;
+}
+
+.btn:hover{
+    background:#3b82f6;
+}
