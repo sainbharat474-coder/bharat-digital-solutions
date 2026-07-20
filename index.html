@@ -879,6 +879,57 @@ Book a FREE consultation today and let's discuss how we can grow your business.
 </div>
 
 </section>
-    
+    <!-- ===== FLOATING BUTTONS ===== -->
+
+<a href="https://wa.me/919875729568"
+class="whatsapp-float"
+target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<a href="tel:+919875729568"
+class="call-float">
+<i class="fas fa-phone"></i>
+</a>
+
+<!-- ===== BACK TO TOP ===== -->
+
+<button id="topBtn">
+<i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- ===== SCRIPT ===== -->
+
+<script>
+
+let topBtn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.body.scrollTop>300||document.documentElement.scrollTop>300){
+
+topBtn.style.display="flex";
+
+}else{
+
+topBtn.style.display="none";
+
+}
+
+}
+
+topBtn.onclick=function(){
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+}
+
+</script>
 </body>
 </html>
