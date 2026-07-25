@@ -2393,3 +2393,15 @@ transform:scale(1.03);
     margin: auto;
     text-align: center;
 }
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-left{
+    width:100%;
+    max-width:1000px;
+    text-align:center;
+    margin:auto;
+}
