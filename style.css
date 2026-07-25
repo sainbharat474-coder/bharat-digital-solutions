@@ -2377,3 +2377,19 @@ img:hover{
 transform:scale(1.03);
 
 }
+/* Hide About Image */
+
+.about-image{
+    display: none;
+}
+
+.about-content{
+    display: block;
+}
+
+.about-text{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
